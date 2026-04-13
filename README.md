@@ -57,7 +57,7 @@ utils/
 
 | Field | Value |
 |-------|-------|
-| Repository | `your-github-username/whiskerbond` |
+| Repository | `your-github-username/whiskrbond` |
 | Branch | `main` |
 | Main file path | `streamlit_app.py` |
 
@@ -75,7 +75,7 @@ Subsequent visits are fast.
 
 Your app will be live at:
 ```
-https://your-username-whiskerbond-streamlit-app-xxxxxx.streamlit.app
+https://your-username-whiskrbond-streamlit-app-xxxxxx.streamlit.app
 ```
 
 ---
@@ -84,7 +84,7 @@ https://your-username-whiskerbond-streamlit-app-xxxxxx.streamlit.app
 
 ```bash
 # Clone
-git clone https://github.com/your-username/whiskerbond
+git clone https://github.com/your-username/whiskrbond
 cd whiskerbond
 
 # Install
