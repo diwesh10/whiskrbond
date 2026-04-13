@@ -157,7 +157,10 @@ with st.expander("🖼️  Try with built-in sample breeds — click any to load
     sample_cols = st.columns(len(SAMPLES))
     for col, (name, url) in zip(sample_cols, SAMPLES.items()):
         with col:
-            st.image(url, use_container_width=True)
+            try:
+                st.image(url, use_container_width=True)
+            except:
+                st.write("⚠️ Image failed to load")
             if st.button(name, key=f"sample_{name}", use_container_width=True):
                 try:
                     with st.spinner(f"Loading {name}…"):
