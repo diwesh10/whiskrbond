@@ -2,9 +2,8 @@
 # CPU-only torch — the cloud has no GPU and the CUDA builds are 2GB+
 # These exact versions are tested on Streamlit Cloud (Python 3.11)
 
---extra-index-url https://download.pytorch.org/whl/cpu
 
-torch==2.1.2+cpu
+torch==2.9.0
 torchvision==0.16.2+cpu
 
 Pillow>=10.0.0
